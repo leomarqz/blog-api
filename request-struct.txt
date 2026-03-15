@@ -1,0 +1,26 @@
+
+Crear usuario:
+------------------------------------
+{
+  "email": "",
+  "password": "",
+  "role": ""
+}
+
+respuesta:
+{
+  "message": "New user created!",
+  "user": {
+    "username": "user-yjlhazaj3jr",
+    "email": "xx-xxx-xx@xx.com",
+    "role": "user"
+  },
+  "accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2OWI3M2I3MDkwYjc2ZWViYjJlYWRlYWIiLCJpYXQiOjE3NzM2MTU5ODQsImV4cCI6MTc3MzYxOTU4NCwic3ViIjoiYWNjZXNzQXBpIn0.K84E24e8XZNntBZB4rq45Rtaode0cBQhfz5Y6Zd-rMI"
+}
+
+Iniciar Sesion:
+------------------------------------
+{
+  "email": "",
+  "password": ""
+}

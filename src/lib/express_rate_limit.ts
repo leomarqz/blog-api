@@ -7,12 +7,12 @@
 /**
  * Node Modules
  */
-import { rateLimit } from 'express-rate-limit';
+import { rateLimit, RateLimitRequestHandler } from 'express-rate-limit';
 
 /**
  * Confgiure rate limiting middleware to prevent abuse
  */ 
-const limiter = rateLimit({
+const limiter: RateLimitRequestHandler = rateLimit({
     windowMs: 60 * 1000, // 1-minute time window for request limiting
     max: 60, // Allow a maximun of 60 reequests per window per IP
     standardHeaders: 'draft-8', // Use the latest standard rate-limit headers 
